@@ -32,29 +32,29 @@ Installez les dépendances avec :
 
 ### Installation
 
-	1.	Clonez ce dépôt :
+1.	Clonez ce dépôt :
 
-git clone https://github.com/beytullahsnk/beytullah_ollama
-cd beytullah_ollama
+    git clone https://github.com/beytullahsnk/beytullah_ollama
+    cd beytullah_ollama
 
 
 AWS Configuration
 Ajoutez les identifiants dans un fichier .env :
 
-AWS_ACCESS_KEY=AKIA3C6FLUKOERU2XA47
-AWS_SECRET_KEY=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
-AWS_REGION=us-east-1
-BUCKET_NAME=my-rag-docs
+    AWS_ACCESS_KEY=AKIA3C6FLUKOERU2XA47
+    AWS_SECRET_KEY=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
+    AWS_REGION=us-east-1
+    BUCKET_NAME=my-rag-docs
 
 
-	2.	Installez les dépendances :
+2.	Installez les dépendances :
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
-	3.	Configurez AWS CLI (si nécessaire) :
+3.	Configurez AWS CLI (si nécessaire) :
 
-  aws configure
+    aws configure
 
 ### Utilisation
 
@@ -71,7 +71,7 @@ Les fichiers seront stockés dans le dossier downloaded_files.
 
 Lancez le script principal main.py :
 
-  python3 main.py
+    python3 main.py
 
 Vous verrez un aperçu du document, et vous pourrez poser des questions en entrant une commande dans le terminal. Par exemple :
 
@@ -96,4 +96,4 @@ beytullah_ollama/
 
 ### Contributeurs
 
-	•	Beytullah Sonkaya
+•	Beytullah Sonkaya
