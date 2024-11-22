@@ -29,13 +29,6 @@ Ce projet implémente un chatbot basé sur la technique RAG (Retrieval-Augmented
 Installez les dépendances avec :
   pip install -r requirements.txt
 
-AWS Configuration
-	1.	Créez un fichier .env
-	3.	Ajoutez les identifiants dans un fichier .env :
-      AWS_ACCESS_KEY=AKIA3C6FLUKOERU2XA47
-      AWS_SECRET_KEY=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
-      AWS_REGION=us-east-1
-      BUCKET_NAME=my-rag-docs
 
 ### Installation
 
@@ -46,12 +39,12 @@ cd beytullah_ollama
 
 
 AWS Configuration
-	1.	Créez un fichier .env
-	2.	Ajoutez les identifiants dans un fichier .env :
-      AWS_ACCESS_KEY=AKIA3C6FLUKOERU2XA47
-      AWS_SECRET_KEY=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
-      AWS_REGION=us-east-1
-      BUCKET_NAME=my-rag-docs
+Ajoutez les identifiants dans un fichier .env :
+
+AWS_ACCESS_KEY=AKIA3C6FLUKOERU2XA47
+AWS_SECRET_KEY=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
+AWS_REGION=us-east-1
+BUCKET_NAME=my-rag-docs
 
 
 	2.	Installez les dépendances :
