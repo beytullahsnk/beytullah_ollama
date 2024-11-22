@@ -13,8 +13,6 @@ Ce projet implémente un chatbot basé sur la technique RAG (Retrieval-Augmented
 	1.	Téléchargement de fichiers depuis AWS S3.
 	2.	Extraction de texte depuis des documents (PDF, TXT, JSON).
 	3.	Interaction avec un LLM (Ollama) pour répondre aux questions.
-	4.	Comparaison des réponses avec et sans RAG.
-	5.	Personnalisation via des paramètres comme la température.
 
 ### Prérequis
 
@@ -84,7 +82,8 @@ Réponse : Le total est de 20,70 EUR.
 
 ### Architecture du Projet
 
-beytullah_ollama/
+```Structure
+.
 ├── s3_loader.py           # Télécharge les fichiers depuis AWS S3
 ├── text_extractor.py      # Extrait le texte des fichiers téléchargés
 ├── ollama_interface.py    # Interagit avec Ollama pour poser des questions
@@ -92,7 +91,7 @@ beytullah_ollama/
 ├── downloaded_files/      # Dossier contenant les fichiers téléchargés
 ├── .env                   # Variables d'environnement pour AWS
 ├── requirements.txt       # Dépendances Python
-
+```
 
 ### Contributeurs
 
